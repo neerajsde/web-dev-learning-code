@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, tr, td{
+            border: 1.5px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        td{
+            padding: 5px;
+        }
+        .a{
+            background-color: rgb(237, 230, 153);
+        }
+        .b{
+            background-color: rgb(179, 110, 243);
+        }
+        .c{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h2>To create an html file as "table2.html"</h2>
+    <table>
+        <tr>
+            <td rowspan="3"><b>Day</b></td>
+            <td colspan="3"><b>Seminar</b></td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Schedule</b></td>
+            <td rowspan="2"><b>Topic</b></td>
+        </tr>
+        <tr>
+            <td><b>Begin</b></td>
+            <td><b>End</b></td>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2" class="a">8:00 a.m.</td>
+            <td rowspan="2" class="b">5:00 p.m.</td>
+            <td>Intoduction to XML</td>
+        </tr>
+        <tr>
+            <td>Validity: DTD and Relax NG</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td class="a">8:00 a.m.</td>
+            <td class="a">11:00 a.m.</td>
+            <td rowspan="2">XPath</td>
+        </tr>
+        <tr>
+            <td class="a">11:00 a.m.</td>
+            <td class="c">2:00 p.m.</td>
+        </tr>
+        <tr>
+            <td class="c">2:00 p.m.</td>
+            <td class="b">5:00 p.m.</td>
+            <td>XSL Transformations</td>
+        </tr>
+        <tr>
+            <td>Webnesday</td>
+            <td class="a">8:00 a.m.</td>
+            <td class="c">12:00 p.m.</td>
+            <td>XSL Formating Objects</td>
+        </tr>
+    </table>
+</body>
+</html>
