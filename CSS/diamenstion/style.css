@@ -1,0 +1,13 @@
+.text{
+    max-height: 300px;
+    border: 2px solid black;
+    /* overflow: hidden; */
+    /* overflow: visible; */
+    /* overflow: scroll; */
+    overflow: auto;
+}
+.box2{
+    margin: 20px;
+    border: 2px solid red;
+    min-width: 200px;
+}

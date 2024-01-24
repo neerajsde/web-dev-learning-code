@@ -1,0 +1,15 @@
+div{
+    border: 1px soild red;
+    background-color: aqua;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+.box1{
+    /* font-size: 30px; */
+    transform: perspective(200px) translateZ(30px);
+}
+.box2{
+    background-color: red;
+    transform: perspective(350px) scaleZ(6) rotate(45deg);
+}
